@@ -30,10 +30,27 @@ You can download binary files from [release](https://github.com/bskim45/dtags/re
 brew install bskim45/dtags/dtags
 ```
 
+### Install directly
+
+```bash
+# Installed to $HOME/.dtags/bin/dtags by default
+$ curl -sfL https://raw.githubusercontent.com/bskim45/dtags/master/scripts/get.sh | sh -s
+```
+
+> for additional options, run `curl -sfL https://raw.githubusercontent.com/bskim45/dtags/master/scripts/get.sh | sh -s -- -h`
+
+Now, add `$HOME/.dtags/bin` to your $PATH.
+
+> Replace `~/.bash_profile` according to your favorite shell. (`~/.zshrc` or `~/.bashrc`)
+
+```bash
+echo 'export PATH="$HOME/.dtags/bin:$PATH"' >> ~/.bash_profile
+```
+
 ### Go
 
-> Please make sure **your `go/bin` is in to your `$PATH`**. Mostly, your go bin path is `~/go/bin` (MacOS/Linux), or `%HOME%\go\bin`
-(Windows). Also you can find go binary path by `$(go env GOPATH)/bin`.
+> Please make sure **your `go/bin` is in your `$PATH`**. Mostly, Go bin path is `~/go/bin` (MacOS/Linux), or `%HOME%\go\bin`
+(Windows). Also, you can find go binary path by `$(go env GOPATH)/bin`.
 
 ```bash
 go get github.com/bskim45/dtags
@@ -45,7 +62,7 @@ go get github.com/bskim45/dtags
 $ dtags help
 ```
 
-For those who are big fan of docker:
+For those who are big fan of docker (also available in quay.io/bskim45/dtags):
 ```bash
 $ docker run -it --rm bskim45/dtags tags bskim45/dtags
 latest
