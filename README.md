@@ -18,6 +18,27 @@
 
 .. and many more that supports Docker Registry API v2 (https://docs.docker.com/registry/spec/api/)
 
+## Installation
+
+### Binary files
+
+You can download binary files from [release](https://github.com/bskim45/dtags/releases).
+
+### Homebrew
+
+```bash
+brew install bskim45/dtags/dtags
+```
+
+### Go
+
+> Please make sure **your `go/bin` is in to your `$PATH`**. Mostly, your go bin path is `~/go/bin` (MacOS/Linux), or `%HOME%\go\bin`
+(Windows). Also you can find go binary path by `$(go env GOPATH)/bin`.
+
+```bash
+go get github.com/bskim45/dtags
+```
+
 ## Usage
 
 ```bash
