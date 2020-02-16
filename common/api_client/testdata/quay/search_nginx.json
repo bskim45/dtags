@@ -1,0 +1,257 @@
+{
+    "has_additional": true,
+    "start_index": 0,
+    "results": [
+        {
+            "description": "NGINX Ingress controller built around the [Kubernetes Ingress resource](http://kubernetes.io/docs/user-guide/ingress/) that uses [ConfigMap](https://kubernetes.io/docs/tasks/configure-pod-container/configmap/#understanding-configmaps) to store the NGINX configuration.\n\nLearn more about using Ingress on [k8s.io](http://kubernetes.io/docs/user-guide/ingress/)\n\n[Repository](https://github.com/kubernetes/ingress-nginx)\n\n[Dockerfile](https://github.com/kubernetes/ingress-nginx/blob/master/rootfs/Dockerfile)",
+            "href": "/repository/kubernetes-ingress-controller/nginx-ingress-controller",
+            "last_modified": 1580210181,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-ingress-controller",
+            "title": "repo",
+            "popularity": 1570913.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/kubernetes-ingress-controller",
+                "avatar": {
+                    "color": "#9c9ede",
+                    "kind": "org",
+                    "hash": "9776675a13971f44e2fa0159f68c590b",
+                    "name": "kubernetes-ingress-controller"
+                },
+                "name": "kubernetes-ingress-controller"
+            },
+            "score": 4,
+            "stars": 32
+        },
+        {
+            "description": "# OpenResty Docker Container\n\n[![Build Status](https://travis-ci.org/UKHomeOffice/docker-nginx-proxy.svg?branch=master)](https://travis-ci.org/UKHomeOffice/docker-nginx-proxy)\n\nThis container aims to be a generic proxy layer for your web services. It includes OpenResty with \nLua and NAXSI filtering compiled in.\n",
+            "href": "/repository/ukhomeofficedigital/nginx-proxy",
+            "last_modified": 1576857918,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-proxy",
+            "title": "repo",
+            "popularity": 105793.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/ukhomeofficedigital",
+                "avatar": {
+                    "color": "#c49c94",
+                    "kind": "org",
+                    "hash": "abf2d2e136a5e21cf9225ac7d106a501",
+                    "name": "ukhomeofficedigital"
+                },
+                "name": "ukhomeofficedigital"
+            },
+            "score": 4,
+            "stars": 5
+        },
+        {
+            "description": "NGINX Ingress controller built around the [Kubernetes Ingress resource](http://kubernetes.io/docs/user-guide/ingress/) that uses [ConfigMap](https://kubernetes.io/docs/tasks/configure-pod-container/configmap/#understanding-configmaps) to store the NGINX configuration.\n\nLearn more about using Ingress on [k8s.io](http://kubernetes.io/docs/user-guide/ingress/)\n\n[Repository](https://github.com/kubernetes/ingress-nginx)\n\n[Dockerfile](https://github.com/kubernetes/ingress-nginx/blob/master/rootfs/Dockerfile)",
+            "href": "/repository/kubernetes-ingress-controller/nginx-ingress-controller-amd64",
+            "last_modified": 1580956578,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-ingress-controller-amd64",
+            "title": "repo",
+            "popularity": 30824.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/kubernetes-ingress-controller",
+                "avatar": {
+                    "color": "#9c9ede",
+                    "kind": "org",
+                    "hash": "9776675a13971f44e2fa0159f68c590b",
+                    "name": "kubernetes-ingress-controller"
+                },
+                "name": "kubernetes-ingress-controller"
+            },
+            "score": 4,
+            "stars": 1
+        },
+        {
+            "description": "",
+            "href": "/repository/promaethius/nginx-backend",
+            "last_modified": 1542060291,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-backend",
+            "title": "repo",
+            "popularity": 19251.0,
+            "namespace": {
+                "kind": "user",
+                "score": 1,
+                "title": "user",
+                "href": "/user/promaethius",
+                "avatar": {
+                    "color": "#c5b0d5",
+                    "kind": "user",
+                    "hash": "092fa143abdee58abf9f567a2cfda525",
+                    "name": "promaethius"
+                },
+                "name": "promaethius"
+            },
+            "score": 4,
+            "stars": 0
+        },
+        {
+            "description": "",
+            "href": "/repository/thomasjungblut/nginx-basic-auth-proxy",
+            "last_modified": 1522047772,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-basic-auth-proxy",
+            "title": "repo",
+            "popularity": 1886.0,
+            "namespace": {
+                "kind": "user",
+                "score": 1,
+                "title": "user",
+                "href": "/user/thomasjungblut",
+                "avatar": {
+                    "color": "#b5cf6b",
+                    "kind": "user",
+                    "hash": "fad9dcf9bf2f17d3b61fa583595bb0d6",
+                    "name": "thomasjungblut"
+                },
+                "name": "thomasjungblut"
+            },
+            "score": 4,
+            "stars": 1
+        },
+        {
+            "kind": "application",
+            "score": 4,
+            "name": "kubernetes-nginx-ingress-controller-chart",
+            "stars": 0,
+            "title": "app",
+            "href": "/application/giantswarm/kubernetes-nginx-ingress-controller-chart",
+            "is_public": true,
+            "popularity": 67.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/giantswarm",
+                "avatar": {
+                    "color": "#9edae5",
+                    "kind": "org",
+                    "hash": "5368bb9b98977357e1b9d20aa4ea8ed7",
+                    "name": "giantswarm"
+                },
+                "name": "giantswarm"
+            },
+            "description": ""
+        },
+        {
+            "description": "",
+            "href": "/repository/rebuy/nginx-exporter",
+            "last_modified": 1551706157,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-exporter",
+            "title": "repo",
+            "popularity": 5160.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/rebuy",
+                "avatar": {
+                    "color": "#e377c2",
+                    "kind": "org",
+                    "hash": "acf90d6600004451682e9008c2253f49",
+                    "name": "rebuy"
+                },
+                "name": "rebuy"
+            },
+            "score": 4,
+            "stars": 0
+        },
+        {
+            "description": "Mirrors docker.io/nginx",
+            "href": "/repository/app-sre/nginx",
+            "last_modified": 1581247539,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx",
+            "title": "repo",
+            "popularity": 10082.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/app-sre",
+                "avatar": {
+                    "color": "#393b79",
+                    "kind": "org",
+                    "hash": "d473d21dc043c72c7650ef811b7169a6",
+                    "name": "app-sre"
+                },
+                "name": "app-sre"
+            },
+            "score": 4,
+            "stars": 0
+        },
+        {
+            "description": "Official build of [Bitnami nginx](https://github.com/bitnami/bitnami-docker-nginx). View [README](https://github.com/bitnami/bitnami-docker-nginx/blob/master/README.md) for details.\n\n[![CircleCI](https://circleci.com/gh/bitnami/bitnami-docker-nginx/tree/master.svg?style=shield)](https://circleci.com/gh/bitnami/bitnami-docker-nginx/tree/master)\n[![Slack](http://slack.oss.bitnami.com/badge.svg)](http://slack.oss.bitnami.com)\n[![Kubectl](https://img.shields.io/badge/kubectl-Available-green.svg)](https://raw.githubusercontent.com/bitnami/bitnami-docker-nginx/master/kubernetes.yml)\n\n# What is nginx?\n\n> nginx (pronounced \"engine-x\") is an open source reverse proxy server for HTTP, HTTPS, SMTP, POP3 and IMAP protocols, as well as a load balancer, HTTP cache, and a web server (origin server).\n\n[http://nginx.org/](nginx.org)\n\n# TL;DR;\n\n```bash\ndocker run --name nginx bitnami/nginx:latest\n```\n\n## Docker Compose\n\n```yaml\nversion: '2'\n\nservices:\n  nginx:\n    image: 'bitnami/nginx:latest'\n    ports:\n      - '80:80'\n      - '443:443'\n```\n\n## Kubernetes\n\n> **WARNING:** This is a beta configuration, currently unsupported.\n\nGet the raw URL pointing to the kubernetes.yml manifest and use kubectl to create the resources on your Kubernetes cluster like so:\n\n```bash\n$ kubectl create -f https://raw.githubusercontent.com/bitnami/bitnami-docker-nginx/master/kubernetes.yml\n```\n\n# Why use Bitnami Images?\n\n* Bitnami closely tracks upstream source changes and promptly publishes new versions of this image using our automated systems.\n* With Bitnami images the latest bug fixes and features are available as soon as possible.\n* Bitnami containers, virtual machines and cloud images use the same components and configuration approach - making it easy to switch between formats based on your project needs.\n* Bitnami images are built on CircleCI and automatically pushed to the Docker Hub.\n* All our images are based on [minideb](https://github.com/bitnami/minideb) a minimalist Debian based container image which gives you a small base container image and the familiarity of a leading linux distribution.\n\n# Get this image\n\nThe recommended way to get the Bitnami nginx Docker Image is to pull the prebuilt image from the [Docker Hub Registry](https://hub.docker.com/r/bitnami/nginx).\n\n```bash\ndocker pull bitnami/nginx:latest\n```\n\nTo use a specific version, you can pull a versioned tag. You can view the\n[list of available versions](https://hub.docker.com/r/bitnami/nginx/tags/)\nin the Docker Hub Registry.\n\n```bash\ndocker pull bitnami/nginx:[TAG]\n```\n\nIf you wish, you can also build the image yourself.\n\n```bash\ndocker build -t bitnami/nginx:latest https://github.com/bitnami/bitnami-docker-nginx.git\n```\n\n# Hosting a static website\n\nThis nginx image exposes a volume at `/app`. Content mounted here is served by the default catch-all virtual host.\n\n```bash\ndocker run -v /path/to/app:/app bitnami/nginx:latest\n```\n\nor using Docker Compose:\n\n```yaml\nversion: '2'\n\nservices:\n  nginx:\n    image: 'bitnami/nginx:latest'\n    ports:\n      - '80:80'\n      - '443:443'\n    volumes:\n      - /path/to/app:/app\n```\n\n# Accessing your server from the host\n\nTo access your web server from your host machine you can ask Docker to map a random port on your host to ports `80` and `443` exposed in the container.\n\n```bash\ndocker run --name nginx -P bitnami/nginx:latest\n```\n\nRun `docker port` to determine the random ports Docker assigned.\n\n```bash\n$ docker port nginx\n443/tcp -> 0.0.0.0:32768\n80/tcp -> 0.0.0.0:32769\n```\n\nYou can also manually specify the ports you want forwarded from your host to the container.\n\n```bash\ndocker run -p 8080:80 -p 8443:443 bitnami/nginx:latest\n```\n\nAccess your web server in the browser by navigating to [http://localhost:8080](http://localhost:8080/).\n\n# Configuration\n\n## Adding custom virtual hosts\n\nThe default nginx.conf includes virtual hosts placed in `/bitnami/nginx/conf/vhosts/*.conf`. You can mount a directory at `/bitnami/nginx/conf/vhosts` from your host containing your custom virtual hosts.\n\n```bash\ndocker run -v /path/to/nginx-persistence/vhosts:/bitnami/nginx/conf/vhosts bitnami/nginx:latest\n```\n\nor using Docker Compose:\n\n```yaml\nversion: '2'\n\nservices:\n  nginx:\n    image: 'bitnami/nginx:latest'\n    ports:\n      - '80:80'\n      - '443:443'\n    volumes:\n      - /path/to/nginx-persistence/vhosts:/bitnami/nginx/conf/vhosts\n```\n## Using custom SSL certificates\n\n*NOTE:* The steps below assume that you are using a custom domain name and that you have already configured the custom domain name to point to your server.\n\nThis container comes with SSL support already pre-configured and with a dummy certificate in place (`server.crt` and `server.key` files in `/bitnami/nginx/conf/bitnami/certs`). If you want to use your own certificate (`.crt`) and certificate key (`.key`) files, follow the steps below:\n\n### Step 1: Prepare your certificate files\n\nIn your local computer, create a folder called `certs` and put your certificates files. Make sure you rename both files to `server.crt` and `server.key` respectively:\n\n```bash\nmkdir /path/to/nginx-persistence/conf/bitnami/certs -p\ncp /path/to/certfile.crt /path/to/nginx-persistence/conf/bitnami/certs/server.crt\ncp /path/to/keyfile.key  /path/to/nginx-persistence/conf/bitnami/certs/server.key\n```\n\n### Step 2: Run the Nginx image\n\nRun the Nginx image, mounting the certificates directory from your host.\n\n```bash\ndocker run --name nginx \\\n-v /path/to/nginx-persistence/conf/bitnami/certs:/bitnami/nginx/conf/bitnami/certs \\\nbitnami/nginx:latest\n```\n\nor using Docker Compose:\n\n```yaml\nversion: '2'\n\nservices:\nnginx:\nimage: 'bitnami/nginx:latest'\nports:\n- '80:80'\n- '443:443'\nvolumes:\n- /path/to/nginx-persistence/conf/bitnami/certs:/bitnami/nginx/conf/bitnami/certs\n```\n\n## Full configuration\n\nThis container looks for configuration in `/bitnami/nginx/conf`. You can mount a directory at `/bitnami/nginx/` with your own configuration, or the default configuration will be copied to your directory at `conf/` if it's empty.\n\n### Step 1: Run the nginx image\n\nRun the nginx image, mounting a directory from your host.\n\n```bash\ndocker run --name nginx -v /path/to/nginx-persistence:/bitnami/nginx bitnami/nginx:latest\n```\n\nor using Docker Compose:\n\n```yaml\nversion: '2'\n\nservices:\n  nginx:\n    image: 'bitnami/nginx:latest'\n    ports:\n      - '80:80'\n      - '443:443'\n    volumes:\n      - /path/to/nginx-persistence:/bitnami/nginx\n```\n\n### Step 2: Edit the configuration\n\nEdit the configuration on your host using your favorite editor.\n\n```bash\nvi /path/to/nginx-persistence/conf/nginx.conf\n```\n\n### Step 4: Restart nginx\n\nAfter changing the configuration, restart your nginx container for changes to take effect.\n\n```bash\ndocker restart nginx\n```\n\nor using Docker Compose:\n\n```bash\ndocker-compose restart nginx\n```\n\n## Enabling Pagespeed module\n\nThis image includes the Pagespeed module for nginx.\n\nIn order to activate it, mount the configuration volume following the steps in [Full Configuration](#full-configuration) section above and edit the file located at `/path/to/nginx-persistence/conf/bitnami/bitnami.conf` adding the following snippet inside the `server` directive:\n\n```nginx\n    pagespeed on;\n    # needs to exist and be writable by nginx\n    pagespeed FileCachePath /installdir/nginx/var/ngx_pagespeed_cache;\n    location ~ \"\\.pagespeed\\.([a-z]\\.)?[a-z]{2}\\.[^.]{10}\\.[^.]+\" { add_header \"\" \"\"; }\n    location ~ \"^/ngx_pagespeed_static/\" { }\n    location ~ \"^/ngx_pagespeed_beacon$\" { }\n    location /ngx_pagespeed_statistics { allow 127.0.0.1; deny all; }\n    location /ngx_pagespeed_message { allow 127.0.0.1; deny all; }\n```\n\nThen, restart nginx or reload its configuration following the steps in the [Restart nginx](#step-4-restart-nginx) section.\n\n# Reverse proxy to other containers\n\nnginx can be used to reverse proxy to other containers using Docker's linking system. This is particularly useful if you want to serve dynamic content through an nginx frontend. Bitnami provides example virtual hosts for all of our runtime containers in `/bitnami/nginx/conf/vhosts/`.\n\n**Further Reading:**\n\n  - [nginx reverse proxy](http://nginx.com/resources/admin-guide/reverse-proxy/)\n\n# Logging\n\nThe Bitnami nginx Docker image sends the container logs to the `stdout`. To view the logs:\n\n```bash\ndocker logs nginx\n```\n\nor using Docker Compose:\n\n```bash\ndocker-compose logs nginx\n```\n\nYou can configure the containers [logging driver](https://docs.docker.com/engine/admin/logging/overview/) using the `--log-driver` option if you wish to consume the container logs differently. In the default configuration docker uses the `json-file` driver.\n\n# Maintenance\n\n## Backing up your container\n\nTo backup your nginx configurations, follow these simple steps:\n\n### Step 1: Stop the currently running container\n\n```bash\ndocker stop nginx\n```\n\nor using Docker Compose:\n\n```bash\ndocker-compose stop nginx\n```\n\n### Step 2: Run the backup command\n\nWe need to mount two volumes in a container we will use to create the backup: a directory on your host to store the backup in, and the volumes from the container we just stopped so we can access the data.\n\n```bash\ndocker run --rm -v /path/to/nginx-backups:/backups \\\n  --volumes-from nginx busybox:latest \\\n    cp -a /bitnami/nginx /backups/latest\n```\n\nor using Docker Compose:\n\n```bash\ndocker run --rm -v /path/to/nginx-backups:/backups \\\n  --volumes-from `docker-compose ps -q nginx` busybox:latest \\\n    cp -a /bitnami/nginx /backups/latest\n```\n\n## Restoring a backup\n\nRestoring a backup is as simple as mounting the backup as volumes in the container.\n\n```bash\ndocker run -v /path/to/nginx-backups/latest:/bitnami/nginx bitnami/nginx:latest\n```\n\nor using Docker Compose:\n\n```yaml\nversion: '2'\n\nservices:\n  nginx:\n    image: 'bitnami/nginx:latest'\n    ports:\n      - '80:80'\n      - '443:443'\n\n    volumes:\n      - /path/to/nginx-backups/latest:/bitnami/nginx\n```\n\n## Upgrade this image\n\nBitnami provides up-to-date versions of nginx, including security patches, soon after they are made upstream. We recommend that you follow these steps to upgrade your container.\n\n### Step 1: Get the updated image\n\n```bash\ndocker pull bitnami/nginx:latest\n```\n\nor if you're using Docker Compose, update the value of the image property to\n`bitnami/nginx:latest`.\n\n### Step 2: Stop and backup the currently running container\n\nBefore continuing, you should backup your container's configuration and logs.\n\nFollow the steps on [creating a backup](#backing-up-your-container).\n\n### Step 3: Remove the currently running container\n\n```bash\ndocker rm -v nginx\n```\n\nor using Docker Compose:\n\n```bash\ndocker-compose rm -v nginx\n```\n\n### Step 4: Run the new image\n\nRe-create your container from the new image, [restoring your backup](#restoring-a-backup) if necessary.\n\n```bash\ndocker run --name nginx bitnami/nginx:latest\n```\n\nor using Docker Compose:\n\n```bash\ndocker-compose start nginx\n```\n\n# Notable Changes\n\n## 1.10.0-r0\n\n- The configuration volume has been moved to `/bitnami/nginx`. Now you only need to mount a single volume at `/bitnami/nginx` for persisting configuration. `/app` is still used for serving content by the default virtual host.\n- The logs are always sent to the `stdout` and are no longer collected in the volume.\n\n## 1.8.0-4-r01 (2015-10-05)\n\n- `/app` directory is no longer exported as a volume. This caused problems when building on top of the image, since changes in the volume are not persisted between Dockerfile `RUN` instructions. To keep the previous behavior (so that you can mount the volume in another container), create the container with the `-v /app` option.\n\n# Contributing\n\nWe'd love for you to contribute to this container. You can request new features by creating an [issue](https://github.com/bitnami/bitnami-docker-nginx/issues), or submit a [pull request](https://github.com/bitnami/bitnami-docker-nginx/pulls) with your contribution.\n\n# Issues\n\nIf you encountered a problem running this container, you can file an [issue](https://github.com/bitnami/bitnami-docker-nginx/issues). For us to provide better support, be sure to include the following information in your issue:\n\n- Host OS and version\n- Docker version (`docker version`)\n- Output of `docker info`\n- Version of this container (`echo $BITNAMI_IMAGE_VERSION` inside the container)\n- The command you used to run the container, and any relevant output you saw (masking any sensitive information)\n\n# Community\n\nMost real time communication happens in the `#containers` channel at [bitnami-oss.slack.com](http://bitnami-oss.slack.com); you can sign up at [slack.oss.bitnami.com](http://slack.oss.bitnami.com).\n\nDiscussions are archived at [bitnami-oss.slackarchive.io](https://bitnami-oss.slackarchive.io).\n\n# License\n\nCopyright (c) 2015-2016 Bitnami\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.",
+            "href": "/repository/bitnami/nginx",
+            "last_modified": 1581123253,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx",
+            "title": "repo",
+            "popularity": 4546.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/bitnami",
+                "avatar": {
+                    "color": "#6b6ecf",
+                    "kind": "org",
+                    "hash": "b6d982581a58a6a39d12c5d5355dde23",
+                    "name": "bitnami"
+                },
+                "name": "bitnami"
+            },
+            "score": 4,
+            "stars": 1
+        },
+        {
+            "description": "From the github project: [https://github.com/UKHomeOffice/docker-nginx-proxy-govuk](https://github.com/UKHomeOffice/docker-nginx-proxy-govuk)",
+            "href": "/repository/ukhomeofficedigital/nginx-proxy-govuk",
+            "last_modified": 1569841593,
+            "is_public": true,
+            "kind": "repository",
+            "name": "nginx-proxy-govuk",
+            "title": "repo",
+            "popularity": 2640.0,
+            "namespace": {
+                "kind": "organization",
+                "score": 1,
+                "title": "org",
+                "href": "/organization/ukhomeofficedigital",
+                "avatar": {
+                    "color": "#c49c94",
+                    "kind": "org",
+                    "hash": "abf2d2e136a5e21cf9225ac7d106a501",
+                    "name": "ukhomeofficedigital"
+                },
+                "name": "ukhomeofficedigital"
+            },
+            "score": 4,
+            "stars": 1
+        }
+    ],
+    "page_size": 10,
+    "page": 1
+}
