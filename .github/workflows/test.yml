@@ -1,0 +1,59 @@
+name: Test and Build
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  build:
+    name: Test and Build
+    strategy:
+      matrix:
+        go: ['1.12', '1.13']
+    runs-on: ubuntu-latest
+    env:
+      VERBOSE: 1
+      GOFLAGS: -mod=readonly
+      GOPROXY: https://proxy.golang.org
+
+    steps:
+      - name: Setup Go
+        uses: actions/setup-go@v1
+        with:
+          go-version: ${{ matrix.go }}
+
+      - name: Setup env
+        shell: bash
+        run: |
+          echo "::set-env name=GOPATH::$(go env GOPATH)"
+          echo "::add-path::$(go env GOPATH)/bin"
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Cache modules
+        uses: actions/cache@v1
+        with:
+          path: ~/go/pkg/mod
+          key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-go-
+
+      - name: Run tests
+        run: make test
+
+      - name: Run linter
+        run: make lint
+
+      - name: Cross Build
+        run: |
+          go get github.com/mitchellh/gox
+          make cross-build
+
+      - name: Store artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: dist
+          path: dist

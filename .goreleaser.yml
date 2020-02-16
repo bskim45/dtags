@@ -1,0 +1,54 @@
+project_name: dtags
+
+builds:
+- env:
+  - CGO_ENABLED=0
+  goos:
+    - freebsd
+    - windows
+    - darwin
+    - linux
+  goarch:
+    - amd64
+    - arm
+    - arm64
+    - 386
+  ldflags:
+    - -s -w
+
+archives:
+  - replacements:
+      386: i386
+    format_overrides:
+      - goos: windows
+        format: zip
+checksum:
+  name_template: 'checksums.txt'
+
+snapshot:
+  name_template: "{{ .Version }}-SNAPSHOT-{{.ShortCommit}}"
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+    - '^docs:'
+    - '^test:'
+    - '^bump'
+
+release:
+  github:
+    owner: bskim45
+    name: dtags
+
+  name_template: "{{.ProjectName}} v{{.Version}}"
+
+brews:
+  -
+    github:
+      owner: bskim45
+      name: homebrew-dtags
+
+    homepage: 'https://github.com/bskim45/dtags/'
+
+    description: ''
