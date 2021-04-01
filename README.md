@@ -3,7 +3,7 @@
 ![Github build status](https://github.com/bskim45/dtags/workflows/Test%20and%20Build/badge.svg?branch=master)
 ![GitHub latest release](https://img.shields.io/github/v/release/bskim45/dtags)
 ![License MIT](https://img.shields.io/github/license/bskim45/dtags)
-[![Docker latest version](https://images.microbadger.com/badges/version/bskim45/helm-kubectl-jq.svg)](https://microbadger.com/images/bskim45/helm-kubectl-jq "Get your own version badge on microbadger.com")
+[![Docker latest version](https://img.shields.io/docker/v/bskim45/dtags?sort=semver)](https://hub.docker.com/r/bskim45/dtags)
 
 **dtags** is a small binary retrieves a list of Docker repositories and Docker Image tags from various Docker registries.
 
@@ -15,6 +15,8 @@
 | quay.io | https://quay.io | Y | Y |
 | Google Container Registry | https://gcr.io | Y | N |
 | Elastic Docker Registry | https://docker.elastic.co | Y | N |
+| GitHub Container Registry | https://ghcr.io | Y | N |
+| Amazon ECR Public Registry | https://public.ecr.aws | N | N |
 
 .. and many more that supports Docker Registry API v2 (https://docs.docker.com/registry/spec/api/)
 
