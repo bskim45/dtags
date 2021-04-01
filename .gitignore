@@ -46,3 +46,4 @@ vendor/
 
 bin/
 dist/
+.env
